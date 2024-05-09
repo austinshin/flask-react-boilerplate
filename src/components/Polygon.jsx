@@ -2,19 +2,20 @@ import React from 'react';
 import Subcomponent from './Subcomponent';
 import { Route, Switch } from 'react-router-dom';
 
-const About = (props) => {
+const Polygon = (props) => {
 
   function getProps(e) {
     console.log('props', props.items);
   }
 
   return (
-    <div className='about'>
+    <div className='polygon'>
+        Polygon
       <Switch>
-        <Route path='/about/subroute' component={Subcomponent} />
+        {/* <Route path='/polygon/subroute' component={Subcomponent} /> */}
       </Switch>
     </div>
   )
 }
 
-export default About;
+export default Polygon;

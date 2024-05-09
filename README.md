@@ -23,10 +23,15 @@ pip install -r requirements.txt
 
 That will start the server on port 7082. To run the development server with hot module reloading, run:
 
+frontend
 ```bash
-npm run start
+npm run start 
 ```
 
+backend
+```bash
+npm run production (backend)
+```
 That will start the webpack dev server on port 7081.
 
 ## Tests

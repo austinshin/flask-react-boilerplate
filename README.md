@@ -1,15 +1,12 @@
-# Flask React Boilerplate
+# Daytrading tool for market code stuff
 
-[![Build Status](https://travis-ci.org/YaleDHLab/flask-react-boilerplate.svg?branch=master)](https://travis-ci.org/YaleDHLab/flask-react-boilerplate)
+Making market research tools via code 
 
-Simple boilerplate for a Flask backend and React client including:
+### Frontend
+React
 
-* ES6 transpiling via Webpack
-* Hot module reloading via Webpack Dev Server
-* State management via Redux
-* Tests via Pytest and Jest
-* Linting via Pylint and Eslint
-* Travis CI for automatic testing and linting
+### Backend
+Flask
 
 ## Dependencies
 
@@ -23,12 +20,6 @@ pip install -r requirements.txt
 ```
 
 ## Quickstart
-
-Once the dependencies are installed, you can start the api with the following command:
-
-```bash
-npm run production
-```
 
 That will start the server on port 7082. To run the development server with hot module reloading, run:
 

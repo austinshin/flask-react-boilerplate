@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "author": "Yale DH Lab",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "Minimal boilerplate for a Flask + React application",
   "main": "server/server.js",
   "repository": {

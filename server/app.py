@@ -1,5 +1,5 @@
 '''server/app.py - main api app declaration'''
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, send_from_directory, request
 from flask_cors import CORS
 import requests
 import constants
@@ -37,6 +37,14 @@ def get_data():
 ##
 # View route
 ##
+
+@app.route('/api/get-twitter-feed/<username>')
+def get_twitter_feed(username):
+  print(username)
+  url = request.path
+  print(url)
+  return 
+
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
